@@ -5,7 +5,9 @@ This project allows players to control pawns that are simulating Physics with Ph
 
 **IMPORTANT: This project is a work-in-progress and NOT COMPLETE**. I'm still working on the general design. There is no smoothing, replay doesn't work properly, there are glitches. Please stop sending me PM's about things that aren't working ;) All in due time...
 
-That said, if you take the code and modify it / improve it - please submit a PR. The aim of the project is to benefit the whole community.
+That said, if you take the code and modify it / improve it - please submit a PR and don't hoard your solution. The aim of this project is to benefit the whole community and tackle a tough development issue.
+
+**I'm not currently actively working on this project**
 
 [Unreal Forum Thread](https://forums.unrealengine.com/showthread.php?135955-Networked-Physics-with-PhysX/page2)
 
