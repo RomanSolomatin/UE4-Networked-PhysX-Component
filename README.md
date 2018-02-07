@@ -9,6 +9,10 @@ That said, if you take the code and modify it / improve it - please submit a PR.
 
 [Unreal Forum Thread](https://forums.unrealengine.com/showthread.php?135955-Networked-Physics-with-PhysX/page2)
 
+BUGS
+----
+* There is a **critical bug** with the Server-side physics at the moment that prevents this system working properly. The offending line is 304 in NTGame_MovementComponent.cpp - effectively the server is simulating client moves with delta time + latency delta. To even start fixing this issue, the Server needs separate PhysX scenes for every client it's simulating and pause it between incoming packets. This can't be done without **extensive** Engine modifications.
+
 TODO
 ----
 * Implement correction smoothing.
